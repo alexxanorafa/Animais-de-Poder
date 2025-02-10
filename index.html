@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais de Poder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu-icon" id="menuIcon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="menu" id="menu">
+            <ul>
+                <a href="https://alexxanorafa.github.io/Tempo_e_Sonhos/" class="menu-item">Tempo e Sonhos</a>
+                <a href="https://alexxanorafa.github.io/posicionamentodosastros/" class="menu-item">Mapa Astral</a>
+                <a href="https://alexxanorafa.github.io/Aneis_da_Sabedoria/" class="menu-item">Anéis da Sabedoria</a>
+                <a href="https://alexxanorafa.github.io/TarodeMarselha/" class="menu-item">Tarô de Marselha</a>
+                <a href="https://alexxanorafa.github.io/Runas-do-Destino/" class="menu-item">Runas do Destino</a>
+                <a href="https://alexxanorafa.github.io/O-Construtor-do-Destino/" class="menu-item">O Construtor do Destino</a>
+                <a href="https://alexxanorafa.github.io/Tabuleiro-Quantico/" class="menu-item">Tabuleiro Quantico</a>
+                <a href="https://alexxanorafa.github.io/Oraculo-das-Pedras/" class="menu-item">Oráculo das Pedras</a>
+                <a href="https://alexxanorafa.github.io/I-Ching-Virtual/" class="menu-item">I Ching Virtual</a>
+                <a href="https://alexxanorafa.github.io/Biblioteca-Onirica/" class="menu-item">Biblioteca Onirica</a>
+                <a href="https://alexxanorafa.github.io/Kabbalah-Interativa/" class="menu-item">Kabbalah Interativa</a>
+                <a href="https://alexxanorafa.github.io/Almas-Conectadas/" class="menu-item">Almas Conectadas</a>
+                <a href="https://alexxanorafa.github.io/Pendulo-Divinatorio/" class="menu-item">Pendulo Divinatorio</a>
+                <a href="https://alexxanorafa.github.io/Buzios/" class="menu-item">Buzios</a>
+                <a href="https://alexxanorafa.github.io/Tasseografia/" class="menu-item">Tasseografia</a>
+                <a href="https://alexxanorafa.github.io/Xamanismo-Animal/" class="menu-item">Xamanismo Animal</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>🐾 Animais de Poder 🐾</h1>
+        
+        <div id="quizContainer" class="container">
+            <div id="questionScreen">
+                <h3 id="questionText"></h3>
+                <div id="answersContainer"></div>
+                <div id="progress"></div>
+            </div>
+        </div>
+
+        <div id="resultContainer" class="container hidden">
+            <h2>Seu Animal Espiritual é:</h2>
+            <div id="animalResult">
+                <h3 id="animalName"></h3>
+                <div id="animalTraits" class="traits-container"></div>
+                <p id="animalDescription"></p>
+                
+                <div class="details-section">
+                    <h4>🔮 Pontos Fortes:</h4>
+                    <p id="animalStrengths"></p>
+                    
+                    <h4>⚠️ Pontos Fracos:</h4>
+                    <p id="animalWeaknesses"></p>
+                    
+                    <h4>🌱 Elemento:</h4>
+                    <p id="animalElement"></p>
+                    
+                    <h4>💡 Orientação:</h4>
+                    <p id="animalGuidance"></p>
+                </div>
+            </div>
+            <button onclick="restartQuiz()" class="btn">Refazer Teste</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
